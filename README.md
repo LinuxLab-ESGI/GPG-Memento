@@ -12,7 +12,7 @@ Here we are going to see the command line tool integrated with GPG.
 To encrypt file we can use this command :  
 `gpg -c fileName`
 
-It will ask to write to times a passphrase. Afterwards, a new file with the extension **.gpg** is created : it is the encrypted file.
+It will ask to write two times a passphrase. Afterwards, a new file with the extension **.gpg** is created : it is the encrypted file.
 
 ## Decrypt file
 
