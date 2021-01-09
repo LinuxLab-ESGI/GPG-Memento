@@ -19,7 +19,7 @@ It will ask to write to times a passphrase. Afterwards, a new file with the exte
 Now we can decrypt this file with this command :  
 `gpg -d fileName.gpg`
 
-> If we decrypt the second time in the same session, it won't ask us the passphrase because gpg  agent has memorisez the passphrase we had entered. It will ask us if we close our session.
+> If we decrypt the second time in the same session, it won't ask us the passphrase because gpg  agent has memorisez the passphrase we had entered. It will ask us if we close our session. Or we can use this command to clear the cache : `gpgconf --reload gpg-agent`
 
 If we want to save the decrypted file we can use the -o option :  
 `gpg -o fileName -d gileName.gpg`
