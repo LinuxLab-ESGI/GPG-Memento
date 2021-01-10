@@ -7,6 +7,19 @@ GPG (**G**NU **P**rivacy **G**uard) is a free version of PGP (**P**retty **G**oo
 Here we are going to see the command line tool integrated with GPG.
 > In GUI mode a window will appear to ask the passphrase, in console mode a sem-GUI window will prompt.
 
+### Prerequisite : 
+
+If GPG isn't installed, you can do it via these commands :
+
+```
+apt install gpg -y
+```
+<i>For Debian distributions or</i>
+```
+yum install gpg -y
+```
+<i>For RedHat ones</i>
+
 ## Encrypt file
 
 To encrypt file we can use this command :  
@@ -34,5 +47,5 @@ To decrypt directly with the passphrase and save it :
 `gpg  --batch --passphrase thePassphrase -o fileName  -d fileName.gpg`
 
 ___
-Updated : 09/01/2021  
+Updated : 10/01/2021  
 Author : AnthonyF
