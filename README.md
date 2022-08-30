@@ -16,7 +16,7 @@ apt install gpg -y
 ```
 <i>For Debian distributions or</i>
 ```
-yum install gpg -y
+dnf install gpg -y
 ```
 <i>For RedHat ones</i>
 
@@ -47,5 +47,4 @@ To decrypt directly with the passphrase and save it :
 `gpg  --batch --passphrase thePassphrase -o fileName  -d fileName.gpg`
 
 ___
-Updated : 10/01/2021  
-Author : AnthonyF
+Updated : 30/08/2022, Author : AnthonyF
